@@ -1,0 +1,17 @@
+.photo-grid {
+    border: 1px solid red;
+    margin: 92px 48px 0;
+}
+
+@media only screen and (max-device-width: 450px) {
+  .photo-grid {
+    margin: 64px 16px 0;
+  }
+}
+
+@media only screen and (min-device-width: 450px) and (max-device-width: 768px) {
+  .photo-grid {
+    margin: 88px 24px 0;
+    max-width: 720px
+  }
+}
