@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <img class="header__logo" src="./images/header-logo.svg"></img>
+      <div class="header__lang-link">
+        <a class="header__lang-link" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="lead">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <picture class="lead__image">
+            <img class="lead__image-over" src="./images/lead/group.svg">
+            <source class="lead__image-under" media="(min-width: 1100px)" srcset="./images/lead/lead-1280.jpg">
+            <source class="lead__image-under" media="(min-width: 800px)" srcset="./images/lead/lead-1024.jpg">
+            <source class="lead__image-under" media="(min-width: 450px)" srcset="./images/lead/lead-768.jpg">
+            <img class="lead__image-under" src="./images/lead/lead-320.jpg" srcset="./images/lead/lead-320.jpg" alt="в дороге">
+          </picture>
+          <!--<img class="lead__image-over" src="./images/lead/group-s.svg">-->
+        <p class="lead__caption">ваша полка — верхняя</p>
+      </div>
+      <div class="intro"></div>
+      <div class="photo-grid"></div>
+      <div class="places"></div>
+      <div class="cover"></div>
+    </div>
+    <div class="footer">
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.lead__image-over {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+  width: 95%;
+  height: 43%;
+  justify-self: center;
+  padding-top: 9%;
+}
