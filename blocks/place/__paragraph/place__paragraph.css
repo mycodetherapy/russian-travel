@@ -1,0 +1,18 @@
+.place__paragraph {
+    /* grid-area: paragraph; */
+    grid-column-start: 2;
+    grid-row-start: 2; 
+    margin: 0; 
+}
+
+.place__paragraph :last-child {
+    margin-top: 26px;
+}
+
+@media only screen and (max-device-width: 700px) {
+    .place__paragraph {
+        grid-column-start: 1;
+        grid-row-start: 4;
+    }
+  }
+
