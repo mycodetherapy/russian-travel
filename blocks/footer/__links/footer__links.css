@@ -1,0 +1,15 @@
+.footer__links {
+    border: 1px solid red;
+    display: flex;
+}
+
+.footer__links :last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+@media (max-device-width: 550px) {
+    .footer__links {
+      flex-direction: column;
+    }
+  }

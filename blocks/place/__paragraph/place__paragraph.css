@@ -2,6 +2,8 @@
     /* grid-area: paragraph; */
     grid-column-start: 2;
     grid-row-start: 2; 
+    font-size: 18px;
+    line-height: 163%;
     margin: 0; 
 }
 
@@ -13,6 +15,7 @@
     .place__paragraph {
         grid-column-start: 1;
         grid-row-start: 4;
+        font-size: 16px;
     }
   }
 
