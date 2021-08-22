@@ -5,9 +5,9 @@
   margin: 0;
 }
 
-@media only screen and (max-device-width: 450px) {
-    .intro__title {
-        font-size: 32px;
-        line-height: 109%;
-    }
+@media (max-device-width: 450px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 109%;
   }
+}

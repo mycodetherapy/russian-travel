@@ -1,5 +1,4 @@
 .place__paragraph {
-    /* grid-area: paragraph; */
     grid-column-start: 2;
     grid-row-start: 2; 
     font-size: 18px;
@@ -7,8 +6,8 @@
     margin: 0; 
 }
 
-.place__paragraph :last-child {
-    margin-top: 26px;
+.place__paragraph :first-child {
+    margin-bottom: 26px;
 }
 
 @media only screen and (max-device-width: 700px) {
@@ -16,6 +15,8 @@
         grid-column-start: 1;
         grid-row-start: 4;
         font-size: 16px;
+        margin-right: 16px;
+        margin-left: 8px;
     }
   }
 

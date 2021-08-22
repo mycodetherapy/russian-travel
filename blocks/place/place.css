@@ -1,16 +1,19 @@
 .place {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: #ffffff;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: max-content max-content;
   gap: 32px;
+  margin-top: 50px;
+  padding: 0;
 }
 
 @media (min-device-width: 700px) {
   .place {
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 48px 28px;
+    margin-top: 73px;
   }
 }
 
@@ -18,6 +21,7 @@
   .place {
     grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
     gap: 48px 32px;
+    margin-top: 80px;
   }
 }
 

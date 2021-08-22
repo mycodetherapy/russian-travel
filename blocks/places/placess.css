@@ -1,6 +1,10 @@
 .places {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 64px 0 0;
+}
+
+.places :first-child {
+  margin-top: 0px;
 }
 
 @media (min-device-width: 700px) {

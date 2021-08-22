@@ -1,0 +1,13 @@
+.place__website_link {
+  /* border: 1px solid red; */
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 12px;
+  color: #ffffff;
+  align-self: flex-start;
+}
+
+.place__website_link:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}

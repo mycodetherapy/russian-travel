@@ -1,15 +1,20 @@
 .footer__links {
-    border: 1px solid red;
-    display: flex;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.footer__links :hover {
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 .footer__links :last-child {
-    margin-right: 0;
-    margin-bottom: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
-@media (max-device-width: 550px) {
-    .footer__links {
-      flex-direction: column;
-    }
+@media (max-device-width: 700px) {
+  .footer__links {
+    flex-direction: column;
   }
+}
