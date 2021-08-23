@@ -6,7 +6,6 @@
   grid-template-rows: max-content max-content;
   gap: 32px;
   margin-top: 50px;
-  padding: 0;
 }
 
 @media (min-device-width: 700px) {
