@@ -3,7 +3,7 @@
   margin: 92px 48px 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
-  gap: 14px;
+  gap: 12px;
 }
 
 @media (max-device-width: 450px) {
@@ -16,5 +16,6 @@
   .photo-grid {
     margin: 88px 24px 0;
     max-width: 720px;
+    gap: 16px;
   }
 }

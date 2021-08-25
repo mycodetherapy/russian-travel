@@ -3,13 +3,9 @@
   margin: 64px 0 0;
 }
 
-.places :first-child {
-  margin-top: 0px;
-}
-
-@media (min-device-width: 700px) {
+@media (min-device-width: 767px) {
   .places {
-    margin: 78px 24px 0;
+    margin: 88px 24px 0;
   }
 }
 

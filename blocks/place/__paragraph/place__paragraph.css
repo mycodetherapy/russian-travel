@@ -1,22 +1,25 @@
 .place__paragraph {
-    grid-column-start: 2;
-    grid-row-start: 2; 
-    font-size: 18px;
-    line-height: 163%;
-    margin: 0; 
+  font-size: 16px;
+  line-height: 26.08px;
+  margin: 0 16px 0;
 }
 
-.place__paragraph :first-child {
-    margin-bottom: 26px;
+.place__paragraph:first-child {
+  margin-bottom: 26px;
 }
 
-@media only screen and (max-device-width: 700px) {
-    .place__paragraph {
-        grid-column-start: 1;
-        grid-row-start: 4;
-        font-size: 16px;
-        margin-right: 16px;
-        margin-left: 8px;
-    }
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-device-width: 768px) {
+  .place__paragraph {
+    margin: 0;
   }
+}
 
+@media (min-device-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+  }
+}
