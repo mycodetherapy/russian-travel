@@ -7,19 +7,19 @@
   color: #ffffff;
 }
 
-@media (min-device-width: 768px) {
+@media (min-width: 768px) {
   .cover{ 
     margin-top: 90px;
   }
 }
 
-@media (min-device-width: 1024px) {
+@media (min-width: 1024px) {
   .cover{ 
     margin-top: 92px;
   }
 }
 
-@media (min-device-width: 1280px) {
+@media (min-width: 1280px) {
   .cover{ 
     margin-right: 48px;
     margin-left: 48px;

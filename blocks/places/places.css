@@ -3,19 +3,19 @@
   margin: 64px 0 0;
 }
 
-@media (min-device-width: 767px) {
+@media (min-width: 767px) {
   .places {
     margin: 88px 24px 0;
   }
 }
 
-@media (min-device-width: 1024px) {
+@media (min-width: 1024px) {
   .places {
     margin: 92px 48px 0;
   }
 }
 
-@media (min-device-width: 1280px) {
+@media (min-width: 1280px) {
   .places {
     margin: 92px 148px 0;
   }

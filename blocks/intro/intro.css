@@ -7,20 +7,20 @@
   margin: 64px 16px 0;
 }
 
-@media (min-device-width: 768px) {
+@media (min-width: 768px) {
   .intro {
     margin: 88px auto 0 24px;
     max-width: 690px;
   }
 }
 
-@media (min-device-width: 1024px) {
+@media (min-width: 1024px) {
   .intro {
     margin: 92px 48px 0;
   }
 }
 
-@media (min-device-width: 1280px) {
+@media (min-width: 1280px) {
   .intro {
     margin: 92px auto 0 148px;
   }

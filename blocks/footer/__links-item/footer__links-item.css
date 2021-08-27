@@ -7,7 +7,7 @@
   margin-bottom: 0;
 }
 
-@media (max-device-width: 760px) {
+@media (max-width: 760px) {
   .footer__links-item {
     margin-right: 0;
     margin-bottom: 32px;

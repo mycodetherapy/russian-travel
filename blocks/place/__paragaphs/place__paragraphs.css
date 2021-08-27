@@ -3,7 +3,7 @@
   grid-row-start: 2;
 }
 
-@media only screen and (max-device-width: 767px) {
+@media (max-width: 767px) {
   .place__paragraphs {
     grid-column-start: 1;
     grid-row-start: 4;

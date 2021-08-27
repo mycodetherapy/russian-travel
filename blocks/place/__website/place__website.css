@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-@media (max-device-width: 767px) {
+@media (max-width: 767px) {
   .place__website {
     grid-column-start: 1;
     grid-row-start: 2;
