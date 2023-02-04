@@ -1,12 +1,14 @@
-# Проект: Russian-travel
+# Project: Russian-travel
 
-### Если вы хотите посетить страницу, [перейдите по ссылке](https://mycodetherapy.github.io/russian-travel/index.html)
-Страница о путешествиях по России.  Позволяет ознакомиться с основными достопримечательностями страны и спланировать маршрут поездки.
+### If you want to visit the page, [follow the link](https://mycodetherapy.github.io/russian-travel/index.html)
 
-**Как это работает**
+A page about traveling in Russia. Allows you to get acquainted with the main sights of the country and plan a trip route.
 
-Страница написана без использования javaScript, адаптирована под наиболее популярные разрешения экранов, построена с применением технологий:
-* Grid Layout
-* Flexbox
-* @media
-* БЭМ
+**How it works**
+
+The page is written without using JavaScript, adapted to the most popular screen resolutions, built using the following technologies:
+
+- Grid Layout
+- Flexbox
+- @media
+- BEM
